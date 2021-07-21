@@ -23,14 +23,14 @@ STATIC_DIR=os.path.join(BASE_DIR,'static')
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-h6-0l+i-oz=^_)_#l)$_p4rq4t--ll_lnt8%@5e-q-cjv2z6e'
+# SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['192.168.43.249']
-# ALLOWED_HOSTS = ['*'] for all 
+# ALLOWED_HOSTS = ['*'] for all
 
 # Application definition
 
