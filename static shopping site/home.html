@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Example of External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    
+    
+    <title>Shopping World</title>
+
+    <!-- Example of Internal CSS -->
+    <style>
+        .col-md-3 {
+            display: inline-block;
+            margin-left: -4px;
+        }
+
+        .col-md-3 {
+            width: 100%;
+            height: auto;
+        }
+
+        body .carousel-control-indicator li {
+            background-color: blue;
+        }
+
+        body .carousel-control-prev-icon body .carousel-control-next-icon {
+            background-color: blue;
+        }
+
+        body .no-padding {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .carousel-control-prev-icon {
+            background: black no-repeat center center;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+        }
+
+        .carousel-control-next-icon {
+            background: black no-repeat center center;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+
+        }
+        body .carousel-indicators{
+        bottom:0;
+        }
+
+        .carousel-indicators .active{
+        background-color: blue;
+        }
+
+
+
+    </style>
+</head>
+
+
+<body>
+    <nav class="navbar background h-nav-resp">
+    
+        <ul class="nav-list v-class-resp">
+
+            <div class="logo" id="home"><img src="./images/logo2.png" alt="Logo"></div>
+            <li> <a href="#home"> Home</a></li>
+            <li> <a href="about.html"> About Us</a></li> 
+            <li> <a href="Gallery.html"> Gallery</a></li>
+            <li> <a href="#Course"> Course</a></li>
+            <li> <a href="#contact"> Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp" >
+            <input type="text" name="search" id="search">
+            <button class="btn btn-secondary pb-2">Search</button>
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big" >The Future of Shopping is here</p>
+                <p class="text-small">There’s no doubting it – the opportunity of selling online has helped several businesses earn more and grow successfully. Like any other business strategy, there are many plus points and the benefits of ecommerce can help one to excel. We couldn’t agree more and have compiled some information to explain the plus points and help you with business decisions.</p>
+                <div class="button">
+                    <button class="btn btn-primary m-2">login</button>
+                    <button class="btn btn-primary">Signup</button>
+                </div>
+            </div>
+
+            <div class="secondHalf">
+                 
+                 <img src="./images/ecommerce-3562191_1280.webp" alt="Profile image"  >
+            
+            </div>
+        </div>
+
+    
+    </section>
+
+    <section id="services-container m-5">
+        <h1 class="h-primary text-center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./images/discount.jpg" alt="">
+                <h2 class="h-secondary center">Discount</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit,ui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                </p>
+            </div>
+            <div class="box">
+                <img src="./images/bulkordering.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit  a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                    </p>
+            </div>
+            <div class="box">
+                <img src="./images/ordering.webp" alt="">
+                <h2 class="h-secondary center">Fast Delivery</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                     Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+
+        <p class="sectionTag text-big" style="color:rgba(59, 5, 1, 0.849);" >The end of boring world is here.</p>
+        <p class="sectionSubTag text-small">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum autem sit nobis nesciunt aspernatur laboriosam recusandae atque doloribus eligendi, illo expedita cumque nihil facere minima est amet optio provident, incidunt a perferendis deserunt. Iure deleniti ipsum dicta earum. Atque alias ducimus maxime fuga ex dolores nam, et dolor! Nihil quae fuga nostrum, totam nam cupiditate voluptate sunt omnis vitae hic asperiores alias a repellat aliquid. Atque id inventore cum facilis molestias ipsum saepe fuga rem. Et earum eaque animi sapiente ea maiores. Molestiae exercitationem ea ipsam sint accusamus voluptas magnam commodi libero et provident, aspernatur, alias iste minima, aliquam omnis?
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?shopping" alt="image" class="imgFluid"> 
+        </div>
+    </section>
+
+
+    </section>
+    <section class="section section-left" id="about">
+        <div class="paras">
+
+        <p class="sectionTag text-big">Electronics</p>
+        <p class="sectionSubTag text-small">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum autem sit nobis nesciunt aspernatur laboriosam recusandae atque doloribus eligendi, illo expedita cumque nihil facere minima est amet optio provident, incidunt a perferendis deserunt. Iure deleniti ipsum dicta earum. Atque alias ducimus maxime fuga ex dolores nam, et dolor! Nihil quae fuga nostrum, totam nam cupiditate voluptate sunt omnis vitae hic asperiores alias a repellat aliquid. Atque id inventore cum facilis molestias ipsum saepe fuga rem. Et earum eaque animi sapiente ea maiores. Molestiae exercitationem ea ipsam sint accusamus voluptas magnam commodi libero et provident, aspernatur, alias iste minima, aliquam omnis?
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://source.unsplash.com/900x900/?laptop" alt="image" class="imgFluid" > 
+        </div>
+    </section>
+    
+
+</section>
+<section class="section" >
+    <div class="paras">
+
+    <p class="sectionTag text-big">Clothing</p>
+    <p class="sectionSubTag text-small">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum autem sit nobis nesciunt aspernatur laboriosam recusandae atque doloribus eligendi, illo expedita cumque nihil facere minima est amet optio provident, incidunt a perferendis deserunt. Iure deleniti ipsum dicta earum. Atque alias ducimus maxime fuga ex dolores nam, et dolor! Nihil quae fuga nostrum, totam nam cupiditate voluptate sunt omnis vitae hic asperiores alias a repellat aliquid. Atque id inventore cum facilis molestias ipsum saepe fuga rem. Et earum eaque animi sapiente ea maiores. Molestiae exercitationem ea ipsam sint accusamus voluptas magnam commodi libero et provident, aspernatur, alias iste minima, aliquam omnis?
+        </p>
+    </div>
+    <div class="thumbnail">
+        <img src="https://source.unsplash.com/900x900/?clothes" alt="image" class="imgFluid" > 
+
+    </div>
+</section>
+
+
+<section class="section section-left" >
+    <div class="paras">
+
+    <p class="sectionTag text-big">Cosmetic</p>
+    <p class="sectionSubTag text-small">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum autem sit nobis nesciunt aspernatur laboriosam recusandae atque doloribus eligendi, illo expedita cumque nihil facere minima est amet optio provident, incidunt a perferendis deserunt. Iure deleniti ipsum dicta earum. Atque alias ducimus maxime fuga ex dolores nam, et dolor! Nihil quae fuga nostrum, totam nam cupiditate voluptate sunt omnis vitae hic asperiores alias a repellat aliquid. Atque id inventore cum facilis molestias ipsum saepe fuga rem. Et earum eaque animi sapiente ea maiores. Molestiae exercitationem ea ipsam sint accusamus voluptas magnam commodi libero et provident, aspernatur, alias iste minima, aliquam omnis?
+        </p>
+    </div>
+    <div class="thumbnail">
+        <img src="https://source.unsplash.com/900x900/?facewash" alt="image" class="imgFluid" > 
+
+    </div>
+</section>
+
+<section class="section" id="services">
+    <div class="paras">
+
+    <p class="sectionTag text-big">Book</p>
+    <p class="sectionSubTag text-small"> 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum autem sit nobis nesciunt aspernatur laboriosam recusandae atque doloribus eligendi, illo expedita cumque nihil facere minima est amet optio provident, incidunt a perferendis deserunt. Iure deleniti ipsum dicta earum. Atque alias ducimus maxime fuga ex dolores nam, et dolor! Nihil quae fuga nostrum, totam nam cupiditate voluptate sunt omnis vitae hic asperiores alias a repellat aliquid. Atque id inventore cum facilis molestias ipsum saepe fuga rem. Et earum eaque animi sapiente ea maiores. Molestiae exercitationem ea ipsam sint accusamus voluptas magnam commodi libero et provident, aspernatur, alias iste minima, aliquam omnis?
+        </p>
+    </div>
+    <div class="thumbnail">
+        <img src="https://source.unsplash.com/900x900/?books,novels" alt="image" class="imgFluid" > 
+
+    </div>
+</section>
+
+
+
+
+
+<section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+        <input class="form-input" type="text" name="Name" id="name" placeholder="Enter Your Name">
+        <input class="form-input" type="number" name="Phone" id="Phone" placeholder="Enter Your Phone No">
+        <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+        <textarea class="form-input"  name="text" id="text" cols="30"  rows="10" placeholder="Ellaborate your concern"></textarea>
+        
+        <button class="btn btn-dark btn-sm" >Submit</button>
+    </div>
+</section>
+
+<footer class="background">
+    <p class="text-footer">
+        Copyright &copy; 2027 ShoppingWorld.com - All Right Reserved    
+    </p>
+</footer>
+
+<script  src="javascript/resp.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
