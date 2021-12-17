@@ -11,3 +11,8 @@ This repository contain all my live projects.
  
  [Spotify Clone](https://mohitsaini2028.github.io/Spotify%20Clone/).
  
+ [API Reader](https://mohitsaini2028.github.io/API%20Reader/).
+ 
+ 
+ Technology - HTML, CSS, JS and Bootstrap.
+ 
