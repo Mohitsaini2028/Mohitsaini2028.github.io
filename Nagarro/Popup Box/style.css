@@ -7,8 +7,20 @@
 
 body{
     background-color: aquamarine;
+    animation-name: changer;
+    animation-duration: 5s;
+      
 }
 
 #box.show{
     visibility:visible;
 }
+
+
+@keyframes changer {
+    0%   {background-color:rgb(231, 75, 75); }
+    25%  {background-color:yellow;}
+    50%  {background-color:rgb(159, 159, 213); }
+    75%  {background-color:bisque;}
+    100% {background-color:hotpink; }
+  }
