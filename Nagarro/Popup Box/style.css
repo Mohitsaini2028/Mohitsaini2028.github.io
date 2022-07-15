@@ -1,0 +1,14 @@
+#box{
+    background-color: violet;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#box.show{
+    visibility:visible;
+}
