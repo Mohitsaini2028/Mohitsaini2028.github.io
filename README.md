@@ -13,6 +13,10 @@ This repository contain all my live projects.
  
  [API Reader](https://mohitsaini2028.github.io/API%20Reader/)
  
+ [Nagarro Projects](https://mohitsaini2028.github.io/Nagarro/All%20links/)
  
- ### Technology - `HTML`, `CSS`, `JS` and `Bootstrap`.
+ 
+ 
+ 
+ ### Technology - `HTML`, `CSS`, `JS`, `JQuery` and `Bootstrap`.
  
