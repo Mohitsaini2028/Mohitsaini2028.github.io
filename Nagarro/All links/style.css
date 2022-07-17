@@ -1,0 +1,36 @@
+body{
+    background-color: #d1d1d1;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-stripes.png");
+
+
+}
+
+.tab{
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    box-shadow: 0 6px 22px #000;
+    background-color: #e9de0c;
+    padding: 0;  
+
+ 
+}
+
+a{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+.detail{
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    box-shadow: 0 6px 16px black;
+    padding: 0;
+}
+
+.detail h1{
+    background-color: #000;
+}
