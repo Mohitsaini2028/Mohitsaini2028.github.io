@@ -14,6 +14,15 @@
 
 [Popup Box](https://mohitsaini2028.github.io/Nagarro/Popup%20Box/)
 ---
+
+[Calculator](https://mohitsaini2028.github.io/Nagarro/Calculator/)
+---
+
+[Form Validation](https://mohitsaini2028.github.io/Nagarro/Form%20Validation/)
+---
+
+[Movie Finder](https://mohitsaini2028.github.io/Nagarro/Movie%20Finder/)
+---
  
 [Phonebook](https://mohitsaini2028.github.io/Nagarro/Phonebook/)
 ---
@@ -24,8 +33,3 @@
 [Registration Form](https://mohitsaini2028.github.io/Nagarro/Registration%20form/)
 ---
 
-[Calculator](https://mohitsaini2028.github.io/Nagarro/Calculator/)
----
-
-[Movie Finder](https://mohitsaini2028.github.io/Nagarro/Movie%20Finder/)
----
