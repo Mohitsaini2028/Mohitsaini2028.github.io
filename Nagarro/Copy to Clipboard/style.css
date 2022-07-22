@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #FFF;
+    background-color: var(--dark);
+    font-family: "Asap", sans-serif;
+    background: rgba(0, 0, 0, 0.5) url('./cool-background.png');
+    background-blend-mode: darken;
+}
+
+textarea {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: 0;
+    color: whitesmoke;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.c1 {
+    background: #1de9b6;
+}
+
+.c2 {
+    background: #e91d5a;
+}
+
+.c3 {
+    background: #F7CA00;
+}
+
+.c4 {
+    background: #e91d5a;
+}
+
+.c5 {
+    background: rgb(16, 110, 190);
+}
+
+
+.c6 {
+    background: #ff5000;
+}
+
+.button:hover {
+    transition: all .1s ease;
+}
+
+.c1:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+.c2:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #e91d5a;
+}
+
+.c3:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #F7CA00;
+}
+
+.c4:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #e91d5a;
+}
+
+.c5:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px rgb(16, 110, 190);
+}
+
+.c6:hover {
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ff5000;
+}
