@@ -18,11 +18,15 @@
 [Calculator](https://mohitsaini2028.github.io/Nagarro/Calculator/)
 ---
 
+[Movie Finder](https://mohitsaini2028.github.io/Nagarro/Movie%20Finder/)
+---
+
 [Form Validation](https://mohitsaini2028.github.io/Nagarro/Form%20Validation/)
 ---
 
-[Movie Finder](https://mohitsaini2028.github.io/Nagarro/Movie%20Finder/)
+[Copy to Clipboard](https://mohitsaini2028.github.io/Nagarro/Copy%20to%20Clipboard/)
 ---
+
  
 [Phonebook](https://mohitsaini2028.github.io/Nagarro/Phonebook/)
 ---
