@@ -27,6 +27,8 @@
 [Copy to Clipboard](https://mohitsaini2028.github.io/Nagarro/Copy%20to%20Clipboard/)
 ---
 
+[Image Slider](https://mohitsaini2028.github.io/Nagarro/Image%20Slider/)
+---
  
 [Phonebook](https://mohitsaini2028.github.io/Nagarro/Phonebook/)
 ---
